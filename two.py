@@ -45,3 +45,16 @@ print("Dictionary:", dict_var, type(dict_var))
 # NoneType
 none_var = None
 print("NoneType:", none_var, type(none_var))
+
+
+# Reserved keywords in Python (cannot be used as variable names)
+# False, None, True, and, as, assert, async, await, break, class, continue, def, del, elif, else, except, 
+# finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, 
+# while, with, yield
+
+a = input("Enter a number: ")
+b = input("Enter another number: ")
+sum = int(a) + int(b)
+print("Sum:", sum)
+
+
